@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    border: 5px solid rgb(2, 59, 59);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    background-color:whitesmoke;
+}
+
+.textBox{
+flex-flow: row wrap;
+
+ align-items: center;
+ line-height: 50px;
+ padding: 20px;
+ font-size: 20px;
+ line-height: 20%;
+ /* text-align: center; */
+
+}
+
+.box {
+    /* padding: 10px; */
+/* border-radius: 0px; */
+}
+
+/* .textBox{
+    text-align: center; */
+/* } */
+
+button{
+  color: wheat;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  background-color:rgb(19, 8, 99);
+  position: absolute;
+  margin-left: 4.5%;
+  
+}
