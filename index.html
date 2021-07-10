@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="registration.css">
 </head>
 <body>
+    <container>
     <div class="heading">
-        <h1>Registration</h1>
-    <!-- </div> -->
+        <h1>Registration numbers</h1>
+   
+    </div>
 
 
         <div class="textBox">
@@ -21,20 +23,35 @@
             <br>
             <label for="fname">Registration No:</label>
             <input type="text" id="fname" name="fname" class="box"  placeholder="enter registration number"><label style="margin-left: 10px ; color: darkgrey; font-weight: bolder;" for=""></div>
-            <button>Add</button>
+            <button class="addButton">Add</button>
             <br><br><br><br>
           
             <!--for radio buttons-->
-            <input type="radio" style="margin-left: 1.9em;" id="Bellville" class="eng" name="city" value="Bellville" >Bellville
+            <input type="radio" style="margin-left: 1.9em;" id="Bellville" class="eng" name="city" value="CJ" >Bellville
          
-            <input type="radio" id="Worcester" class="isi" name="city" value="Worcester" >Worcester
+            <input type="radio" id="Worcester" class="isi" name="city" value="CW" >Worcester
          
-            <input type="radio" id="Paarl" class="fren" name="city" value="Paarl" >Paarl
+            <input type="radio" id="Paarl" class="fren" name="city" value="CY" >Paarl
             <br><br>
-            <button>Show</button>
-            <br><br><br><br>
+            <button class="showButton">Show</button>
+
+            <br>
+            <br>
+            <br>
+            
+            <button class="showAll">Show All</button>
+            <br><br><br><br><br>
             </div>
+            <ul class="displayRegistration"></ul>
+
+            
+        
+
+
+            <script src="./registration_factory.js" charset="utf-8"></script>
+            <script src="./registration.js" charset="utf-8"></script>
+
            
-    
+        </container>  
 </body>
 </html>

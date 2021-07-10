@@ -47,7 +47,27 @@ button{
   cursor: pointer;
   border: none;
   background-color:rgb(19, 8, 99);
-  position: absolute;
+  
   margin-left: 4.5%;
   
 }
+
+.ul {
+    list-style: none;
+    display: flex;
+
+    background-color: silver;
+    color: black;
+}
+
+.popo {
+    display: flex;
+}
+
+.plates{
+    background-color: grey;
+    border-radius: 10px;
+    border-color: black qq;
+   
+}
+
